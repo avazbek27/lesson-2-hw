@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Ailes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<script src="script.js"></script>
+
+<body class="font-sans bg-white text-dark">
+
+
+    <header class="flex items-center justify-between px-6 py-4 shadow-md">
+        <div class="flex items-center gap-4">
+            <img src="Link → main_logo.svg.png" alt="" class="h-8">
+            <button class="bg-primary text-white px-3 py-1 rounded-full text-sm">
+                Укажите свой адрес
+            </button>
+        </div>
+        <nav class=" md:flex gap-6 text-sm">
+            <ul class="flex justify-between gap-8">
+                <li>О нас</li>
+                <li>меню</li>
+                <li>акции</li>
+                <li>филиали</li>
+                <li>контакты</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="relative w-full max-w-6xl mx-auto my-6">
+        <img src="Link → m69XYpPxUafYX7FG9FYmo8MBVJYWJyh9XoVGH371.jpg.png" alt=""
+            class="rounded-xl w-[976px] h-[293px]">
+    </section>
+
+
+    <h2 class="text-2xl font-semibold px-6 mb-6">Сеты</h2>
+
+
+    <section class="grid gap-6 px-6 md:grid-cols-4">
+
+         <div class="border rounded-xl shadow p-4 text-center box" 
+       data-name="Фудийси сет" 
+       data-price="45000">
+      <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt=""
+          class="mx-auto h-32 object-contain">
+      <h3 class="mt-4 font-medium">Фудийси сет</h3>
+      <p class="text-gray-500 mb-3">45 000 сум</p>
+      <button onclick="buy()" class="bg-blue-600 text-white px-4 py-1 rounded-full">+</button>
+  </div>
+
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="cbidR6KU18nziNPphlU3jpa8OZi1nhaRKJkc93Cn.webp.png" alt=" " class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Снэк сет</h3>
+            <p class="text-gray-500 mb-3">79 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="h7WO4cUYGJBiBUFs2qeUAYMhe5xYEXlSSLd1LWCa.webp.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Классик сет</h3>
+            <p class="text-gray-500 mb-3">34 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="xJNb3iZ1NJ8Yx11eVSQ3X2CMSn5nruiAH8p9A35U.webp.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Лонгер рэнч сет</h3>
+            <p class="text-gray-500 mb-3">45 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="45sfsptLWqT9vq7X3cfx1bIXZXLUuCULyln6EZlf.webp.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Биг сет</h3>
+            <p class="text-gray-500 mb-3">62 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="9RplsrJissmFUdjyIDNnRsjr12vfFUc2RZwd7iOq.webp.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Лестер сет</h3>
+            <p class="text-gray-500 mb-3">53 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="uJTcWJyBmtLq9abqzFXeiNgwFcItwFPGrllH9lGW.webp.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Скупи сет</h3>
+            <p class="text-gray-500 mb-3">36 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="p0TZUFzdFp7riQd4NFukH7bYCguz0h9jT5jbHNXy.webp.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Комбо сет Большой</h3>
+            <p class="text-gray-500 mb-3">20 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="d4xA2cZWeidDPxv0mlQ2hsYEMQacOIqsWbWy92XR.png.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Достлар 1x</h3>
+            <p class="text-gray-500 mb-3">43 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="U8v7GsJt5Nahm0L4Vna0u7HEeRc8U9PnU6R6j6TV.png.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Достлар 2x</h3>
+            <p class="text-gray-500 mb-3">79 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="eGsfAo0P5E7gh8aRB0vHPXX2JTKjAFasnhiBO777.png.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Достлар 4x</h3>
+            <p class="text-gray-500 mb-3">149 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+
+        <div class="border rounded-xl shadow p-4 text-center">
+            <img src="iHB3KWEddHpod7sUIc82M8pI627orxHpTz18qknX.png.png" alt="" class="mx-auto h-32 object-contain">
+            <h3 class="mt-4 font-medium">Острый Достлар 1x</h3>
+            <p class="text-gray-500 mb-3">43 000 сум</p>
+            <button class="bg-primary text-white px-4 py-1 rounded-full">+</button>
+        </div>
+    </section>
+
+
+    <footer class="text-center py-6 mt-10 text-gray-500 border-t">
+        <img src="https://lesailes.uz/logo.png" alt="logo" class="h-6 mx-auto mb-2">
+        © 2024 Все права защищены
+    </footer>
+
+
+<script>
+function buy() {
+  // спрашиваем у клиента число
+  let count = prompt("Вам сколько надо?");
+  
+  // переводим в число
+  count = Number(count);
+
+  // проверяем что ввёл именно число
+  if (!isNaN(count) && count > 0) {
+    let result = count * 25000;
+    alert("Спасибо за покупку! Итоговая сумма: " + result + " сум.");
+  } else {
+    alert("Пожалуйста, введите правильное число!");
+  }
+}
+</script>
+</body>
+
+</html>
